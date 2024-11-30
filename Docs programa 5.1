@@ -1,0 +1,44 @@
+Declaración de Variables:
+
+nombre: Se asigna el valor "Ediguer", un nombre de ejemplo.
+edad: Se asigna el valor 27, la edad de la persona.
+calificacion: Se asigna el valor 93.8, la calificación de la persona, representada como un número flotante.
+Forma 1: Concatenación de Cadenas:
+
+En esta forma, se concatenan las variables nombre, edad y calificacion convertidas a cadenas con el operador +.
+El uso de str() es necesario para convertir los valores numéricos (edad y calificacion) a cadenas para que se puedan concatenar con el texto.
+Ejemplo de salida:
+
+Mi nombre es Ediguer, mi edad es 27, mi calificación es 93.8
+Forma 2: Uso de f-strings (Interpolación de Variables):
+
+Las f-strings (disponibles desde Python 3.6) permiten insertar variables directamente dentro de una cadena utilizando llaves {}.
+Es una forma más limpia y legible de realizar la concatenación. Python automáticamente convierte las variables al tipo adecuado para ser impresas en la cadena.
+Ejemplo de salida:
+
+Nombre Ediguer, Edad 27, Calificación 93.8
+Forma 3: Sintaxis de Formato con %:
+
+En este método, se utiliza el operador % para formatear cadenas. Los especificadores %s, %d y %f se utilizan para insertar variables en la cadena:
+%s: Para cadenas (string).
+%d: Para enteros (integer).
+%f: Para números flotantes (float).
+El uso de % para formatear es más antiguo y menos flexible que las f-strings, pero aún se utiliza en código más antiguo.
+Ejemplo de salida:
+
+Nombre Ediguer, Edad 27, Calificación 93.800000
+Notas sobre el Formato de Salida:
+f-string: La precisión de los números flotantes (como calificacion) puede ser controlada con la notación :.xf, donde x es el número de decimales que se desean mostrar. Por ejemplo, calificacion:.2f mostraría la calificación con dos decimales.
+%f: El especificador %f en la forma 3 imprime el número flotante con 6 decimales por defecto. Si se desea limitar el número de decimales, se puede usar %.2f para mostrar dos decimales, por ejemplo.
+Ejemplo de Ejecución:
+Concatenación de Cadenas:
+
+Mi nombre es Ediguer, mi edad es 27, mi calificación es 93.8
+f-string:
+
+
+Nombre Ediguer, Edad 27, Calificación 93.8
+Uso de %:
+
+
+Nombre Ediguer, Edad 27, Calificación 93.800000
