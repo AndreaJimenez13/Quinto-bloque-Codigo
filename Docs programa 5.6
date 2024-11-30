@@ -1,0 +1,22 @@
+Definición de la función operaciones(num1, num2, digitos):
+
+La función toma tres parámetros:
+num1: El primer número.
+num2: El segundo número.
+digitos: La cantidad de decimales que el usuario desea mostrar en la división y el módulo.
+Dentro de la función, se realizan las siguientes operaciones matemáticas:
+Suma: num1 + num2
+Resta: num1 - num2
+Multiplicación: num1 * num2
+División: num1 / num2 (convertido a float para asegurar que se muestren decimales).
+Módulo: num1 % num2, que devuelve el residuo de la división.
+Luego, se imprimen los resultados de cada operación utilizando f-strings para formatear la salida.
+Nota importante: Para la división, se utiliza la sintaxis {division:.{digitos}f} para controlar el número de decimales según el valor proporcionado por el usuario.
+Entrada de datos por parte del usuario:
+
+Se solicita al usuario que ingrese dos números (num1 y num2), y la cantidad de decimales a mostrar en la división y el módulo (digitos).
+Se usa la función input() para capturar los datos del usuario, y luego se convierten a enteros (int()).
+Llamadas a la función:
+
+Primero, se llama a la función operaciones() pasando los valores ingresados por el usuario.
+Después, se hace una segunda llamada a la función con los valores 140, 8 y 5 como ejemplo de prueba, para mostrar cómo funciona la función con números diferentes.
