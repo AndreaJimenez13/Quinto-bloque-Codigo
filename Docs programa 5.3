@@ -1,0 +1,66 @@
+list():
+
+La función list(cadena) convierte un objeto iterable (como una cadena o tupla) en una lista.
+Ejemplo: Si cadena = "Hola", la conversión a lista se realiza carácter por carácter, y el resultado es ['H', 'o', 'l', 'a'].
+Salida:
+
+Funcion list
+['H', 'o', 'l', 'a']
+len():
+
+La función len(cadena) devuelve la longitud de un objeto iterable (como una cadena o lista). En este caso, devuelve el número de caracteres en la cadena.
+Ejemplo: Si cadena2 = "Hola mundo", el resultado es 10 (porque tiene 10 caracteres, incluyendo el espacio).
+Salida:
+
+Funcion len
+10
+min():
+
+La función min() devuelve el valor mínimo de un iterable (lista, tupla, etc.).
+Ejemplo: Si numeros = [1, 2, 3, 4, 5], el valor mínimo en la lista es 1.
+Salida:
+
+Funcion min
+1
+max():
+
+La función max() devuelve el valor máximo de un iterable.
+Ejemplo: Si numeros2 = [1, 2, 3, 4, 5], el valor máximo en la lista es 5.
+Salida:
+
+Funcion max
+5
+sorted():
+
+La función sorted() devuelve una lista ordenada de los elementos de un iterable. El iterable original no se modifica.
+Ejemplo: Si numeros3 = [1, 2, 3, 4, 5], la lista ya está ordenada, y el resultado será [1, 2, 3, 4, 5].
+Salida:
+
+Funcion sorted
+[1, 2, 3, 4, 5]
+reversed():
+
+La función reversed() devuelve un iterador que produce los elementos de un iterable en orden inverso.
+Ejemplo: Si numeros4 = [1, 2, 3, 4, 5], al usar reversed(numeros4) obtenemos un iterador, por lo que es necesario convertirlo en una lista para imprimirlo: [5, 4, 3, 2, 1].
+Salida:
+
+Funcion reversed
+[5, 4, 3, 2, 1]
+enumerate():
+
+La función enumerate() agrega un índice a los elementos de un iterable, lo que permite obtener tanto el índice como el valor del elemento en un bucle.
+Ejemplo: Si frutas = ["manzana", "banana", "cereza"], al usar enumerate(frutas) obtenemos pares de índice y valor como (0, 'manzana'), (1, 'banana'), etc.
+Salida:
+
+Funcion enumerate
+indice: 0, fruta: manzana
+indice: 1, fruta: banana
+indice: 2, fruta: cereza
+zip():
+
+La función zip() toma dos o más iterables y los "empareja" creando tuplas. El número de tuplas generadas es el tamaño del iterable más pequeño.
+Ejemplo: Si nombres = ["juan", "maria", "carlos"] y edades = [23, 45, 14], zip(nombres, edades) crea las tuplas ("juan", 23), ("maria", 45), y ("carlos", 14).
+Salida:
+
+Funcion zip
+[('juan', 23), ('maria', 45), ('carlos', 14)]
