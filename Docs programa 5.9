@@ -1,0 +1,18 @@
+Entrada de Usuario:
+
+El programa solicita al usuario que ingrese un número utilizando la función input(). Este número se convierte a un entero con int().
+Comprobación del Rango:
+
+El programa verifica si el número ingresado está en el rango de 10 a 99 utilizando una condicional if num >= 10 and num <= 99.
+Verificación de Primalidad:
+
+Si el número está en el rango válido, se asume inicialmente que el número es primo (es_primo = True).
+Luego, se ejecuta un ciclo for i in range(2, num) que intenta dividir el número por cada número desde 2 hasta num - 1.
+Si el número es divisible por cualquier valor dentro de este rango (num % i == 0), se establece es_primo = False y el ciclo se interrumpe con break.
+Resultado:
+
+Si la variable es_primo sigue siendo True después del ciclo, el programa informa que el número es primo.
+Si es_primo es False, se informa que el número no es primo.
+Manejo de Errores:
+
+Si el número ingresado no está en el rango de 10 a 99, el programa muestra un mensaje de error.
