@@ -1,0 +1,24 @@
+Definición de la Función operaciones(num1, num2, digitos):
+
+La función toma tres parámetros:
+num1: El primer número en las operaciones.
+num2: El segundo número en las operaciones.
+digitos: La cantidad de decimales a mostrar en el resultado de la división.
+La función realiza cinco operaciones:
+Suma: num1 + num2
+Resta: num1 - num2
+Multiplicación: num1 * num2
+División: num1 / num2, formateada con la cantidad de decimales especificados.
+Módulo: El residuo de la división de num1 por num2.
+Los resultados de todas las operaciones se imprimen usando la función print(). La división se muestra con la cantidad de decimales indicada por el usuario, utilizando el formato .{digitos}f dentro de un f-string.
+Entrada de Datos por el Usuario:
+
+Se solicita al usuario que ingrese dos números (para num1 y num2), la cantidad de decimales para la división y el número de repeticiones de las operaciones:
+num1: El primer número, ingresado como un entero.
+num2: El segundo número, ingresado como un entero.
+digitos: La cantidad de decimales a mostrar en el resultado de la división, ingresado como un entero.
+cantidad: La cantidad de veces que el usuario quiere que se repita el conjunto de operaciones.
+Repetición de las Operaciones:
+
+El programa usa un ciclo for para repetir las operaciones el número de veces indicado por el usuario.
+El ciclo itera cantidad veces, ejecutando la función operaciones() en cada iteración con los mismos valores de num1, num2 y digitos.
