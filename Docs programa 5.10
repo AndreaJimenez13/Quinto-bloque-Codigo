@@ -1,0 +1,13 @@
+Función es_primo(num):
+
+Esta función toma un número num como parámetro y realiza dos tareas principales:
+Verificación del rango: Primero, comprueba si el número está en el rango de 10 a 99. Si el número está fuera de este rango, la función devuelve un mensaje indicando que el número no está en el rango permitido.
+Verificación de primalidad: Si el número está en el rango adecuado, la función procede a verificar si el número es primo. 
+Utiliza un ciclo for que recorre los números del 2 hasta num - 1 para ver si alguno de ellos divide exactamente a num. Si encuentra algún divisor, el número no es primo.
+Llamada a la función:
+
+Se solicita al usuario que ingrese un número con input(), y luego se convierte a entero con int().
+La función es_primo(num) es llamada con el número ingresado, y el resultado es almacenado en la variable resultado.
+Impresión del Resultado:
+
+El resultado de la función (es_primo(num)) se imprime en pantalla, indicando si el número es primo o no, o si el número está fuera del rango permitido.
