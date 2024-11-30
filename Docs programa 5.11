@@ -1,0 +1,17 @@
+Condicional de Rango:
+
+La función primo(num) primero verifica si el número ingresado está en el rango de 10 a 99. Si el número está fuera de este rango, se devuelve un mensaje informando sobre el error.
+Ciclo de Verificación de Primalidad:
+
+Si el número está en el rango adecuado, la función recorre los números desde 2 hasta num - 1 para comprobar si el número es divisible por algún valor de este rango. Si el número es divisible, no es primo.
+Entrada del Usuario:
+
+El ciclo while permite que el programa se ejecute indefinidamente, solicitando al usuario ingresar un número o escribir "salir" para terminar el programa. Si el número ingresado es inválido, se captura el error y se le pide al usuario que ingrese un número válido.
+Manejo de Errores:
+
+Si el usuario ingresa un valor no numérico o algo que no sea un número entre 10 y 99 o "salir", el bloque except captura el error y muestra un mensaje pidiendo un valor válido.
+
+Funciones: La función primo() es responsable de verificar si el número ingresado es primo.
+Condicionales: Se usan if para verificar el rango del número y si es divisible por otros números.
+Ciclos: El ciclo while permite al usuario realizar múltiples verificaciones de primalidad hasta que decida salir del programa.
+Manejo de Errores: El bloque try-except captura los errores de entrada y muestra mensajes apropiados.
